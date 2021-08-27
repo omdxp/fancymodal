@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.65.0",
-    "react-native-modalbox": "^2.0.2",
+    "react-native-root-modal": "^5.0.1",
     "react-native-windows": "0.65.0"
   },
   "devDependencies": {
