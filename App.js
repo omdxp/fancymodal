@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {View, Text, Button, TouchableOpacity} from 'react-native';
-import Modal from 'react-native-simple-modal';
+import {View, Text, Button, TouchableOpacity, ScrollView} from 'react-native';
+import Modal from 'react-native-resimple-modal';
 
 export default function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -44,33 +44,190 @@ export default function App() {
           borderRadius: 35,
           margin: 20,
           padding: 10,
-          backgroundColor: '#d21221',
+          backgroundColor: '#1117ee',
         }}
         overlayStyle={{
-          backgroundColor: 'rgba(110, 0, 0, 0.75)',
+          backgroundColor: 'rgba(0, 0, 99, 0.75)',
           flex: 1,
         }}>
-        <View style={{alignItems: 'center'}}>
-          <Text style={{fontSize: 20, marginBottom: 10, color: 'black'}}>
-            Hello world!
-          </Text>
-          <TouchableOpacity style={{margin: 5}} onPress={moveUp}>
-            <Text style={{color: 'black'}}>Move modal up</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={{margin: 5}} onPress={resetPosition}>
-            <Text style={{color: 'black'}}>Reset modal position</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={{margin: 5}} onPress={closeModal}>
-            <Text style={{color: 'black'}}>Close modal</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={{margin: 5}}
-            onPress={() => setIsModalVisible2(true)}>
-            <Text style={{color: 'black'}}>Open modal</Text>
-          </TouchableOpacity>
-        </View>
+        <ScrollView>
+          <View style={{alignItems: 'center'}}>
+            <Text style={{fontSize: 20, marginBottom: 10, color: 'white'}}>
+              Hello world!
+            </Text>
+            <TouchableOpacity style={{margin: 5}} onPress={moveUp}>
+              <Text style={{color: 'white'}}>Move modal up</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{margin: 5}} onPress={resetPosition}>
+              <Text style={{color: 'white'}}>Reset modal position</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{margin: 5}} onPress={closeModal}>
+              <Text style={{color: 'black'}}>Close modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={{margin: 5}}
+              onPress={() => setIsModalVisible2(true)}>
+              <Text style={{color: 'black'}}>Open modal</Text>
+            </TouchableOpacity>
+          </View>
+        </ScrollView>
       </Modal>
-      <Modal
+      {/* <Modal
         offset={offset}
         open={isModalVisible2}
         modalDidClose={() => setIsModalVisible2(false)}
@@ -92,7 +249,7 @@ export default function App() {
             <Text style={{color: 'black'}}>Close modal</Text>
           </TouchableOpacity>
         </View>
-      </Modal>
+      </Modal> */}
     </View>
   );
 }
